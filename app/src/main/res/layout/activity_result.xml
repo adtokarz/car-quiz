@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.quizapp.ResultActivity"
+    android:background="@drawable/resu">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="87dp"
+        android:layout_marginRight="87dp"
+        android:layout_marginBottom="58dp"
+        android:orientation="vertical">
+
+
+<RatingBar
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:numStars="5"
+    android:stepSize=".5"
+    android:id="@+id/ratingBar1"
+    ></RatingBar>
+
+
+        <TextView
+            android:id="@+id/textResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="436dp"
+            android:layout_weight="0.08"
+            android:gravity="center_horizontal"
+            android:padding="20dp"
+            android:text="Wynik"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/czerwony"
+            android:textStyle="bold"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aby zacząć od nowa, użyj guzika w prawym górnym rogu"
+            android:textColor="@color/czerwony"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+
+</RelativeLayout>

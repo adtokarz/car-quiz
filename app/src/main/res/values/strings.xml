@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Od nowa</string>
+    <string name="nastepne">Następne pytanie</string>
+    <string name="title_activity_result">Wynik</string>
+    <string name="settings_menu_item">Od nowa</string>
+
+</resources>
